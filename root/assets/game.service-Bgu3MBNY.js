@@ -1,1 +1,0 @@
-import{u as o}from"./PlayrixLogo-LJSNFezM.js";import{h as r}from"./index-Cv6UxWWC.js";function s(){const e=o(),t=r(()=>e.newGame);function m(){e.setNewGame()}return{setNewGame:m,getGame:t}}export{s as u};
