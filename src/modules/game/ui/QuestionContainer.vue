@@ -7,7 +7,9 @@
     </Transition>
     <Transition name="bottom-fade" appear>
       <div v-if="getQuestion" class="flex flex-col items-center mt-[279px]">
-        <QuestionTimer :timer="getQuestion[0].timer" />
+        <Transition name="bounce" appear>
+          <QuestionTimer :timer="getQuestion[0].timer" />
+        </Transition>
         <AnswerQuestion class="mt-[40px]" :question="getQuestion[0]" />
       </div>
     </Transition>
