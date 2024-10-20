@@ -56,14 +56,8 @@ export function useResultService() {
       router.push({ name: 'start' })
       gameStore.setBaseValues()
     } else {
-      if (gameStore.isGameWin) {
-        router.push({ name: 'start' })
-        gameStore.setBaseValues()
-      } else {
-        router.push({
-          name: 'game'
-        })
-      }
+      router.push({ name: 'start' })
+      gameStore.setBaseValues()
     }
   }
   return {
