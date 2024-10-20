@@ -10,13 +10,19 @@ export const useGameStore = defineStore(STORE_ID, () => {
     gamePoints = ref(0),
     correctAnswers = ref(0),
     currentPoint = ref<IPoint>(),
-    currentCategory = ref<ICategory>()
+    currentCategory = ref<ICategory>(),
+    selectedQuestions = ref(new Set<number>()),
+    counter = ref(0)
 
   const isGameWin = computed(() => {
     return correctAnswers.value === newGame.value!.winAnswer
   })
 
   function setNewGame() {
+    if (counter.value > 4) {
+      selectedQuestions.value.clear()
+      counter.value = 0
+    }
     newGame.value = {
       id: 1,
       name: 'playrix quiz',
@@ -27,8 +33,18 @@ export const useGameStore = defineStore(STORE_ID, () => {
           name: category.name,
           points: category.points
             .map((point) => {
-              const randomQuestionIndex = Math.floor(Math.random() * point.questions.length)
-              const selectedQuestion = point.questions[randomQuestionIndex]
+              const availableQuestions = point.questions.filter(
+                (p) => !selectedQuestions.value.has(p.id)
+              )
+              const randomIndex = Math.floor(
+                Math.random() *
+                  (availableQuestions.length ? availableQuestions.length : point.questions.length)
+              )
+              const selectedQuestion = availableQuestions.length
+                ? availableQuestions[randomIndex]
+                : point.questions[randomIndex]
+              selectedQuestions.value.add(selectedQuestion.id)
+
               return {
                 id: point.id,
                 point: point.point,
@@ -40,6 +56,7 @@ export const useGameStore = defineStore(STORE_ID, () => {
         }
       })
     }
+    counter.value++
   }
 
   function setGamePoints() {

@@ -3,11 +3,11 @@
     <div class="text-[36px] text-[#FFFFFF] font-bold text-center">
       {{ question.question }}
     </div>
-    <div class="flex flex-col gap-[30px] pt-[40px]">
+    <div class="flex flex-col items-center gap-[30px] pt-[40px]">
       <div
         v-for="answer in question.answers"
         :key="answer.id"
-        class="flex items-center justify-center text-center w-[1004px] h-[119px] text-[#000000] font-bold text-[40px] uppercase bg-[#F0F7E8] hover:bg-[#FFDE00] active:bg-[#FFDE00] rounded-angels"
+        class="flex items-center justify-center text-center w-[1004px] h-[119px] text-[#000000] font-bold text-[40px] uppercase bg-[#F0F7E8] hover:bg-[#FFDE00] rounded-angels"
         @click="doAnswer(answer)"
       >
         {{ answer.answer }}

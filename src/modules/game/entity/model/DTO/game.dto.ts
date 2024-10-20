@@ -8,7 +8,8 @@ export interface IQuestion {
   id: number
   question: string
   answers: IAnswer[]
-  timer: number // in seconds
+  timer: number
+  image?: string
 }
 
 export interface IPoint {
