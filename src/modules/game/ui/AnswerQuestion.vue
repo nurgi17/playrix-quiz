@@ -3,6 +3,18 @@
     <div class="text-[36px] text-[#FFFFFF] font-bold text-center">
       {{ question.question }}
     </div>
+    <div class="flex flex-col items-center">
+      <div
+        v-if="question.image"
+        class="mt-[40px] rounded-img bg-[#FFDE00] pt-[24px] pr-[18px] pb-[24px] pl-[18px]"
+      >
+        <img
+          class="max-w-[542px] max-h-[247px] rounded-img object-contain"
+          :src="question.image"
+          alt=""
+        />
+      </div>
+    </div>
     <div class="flex flex-col items-center gap-[30px] pt-[40px]">
       <div
         v-for="answer in question.answers"
