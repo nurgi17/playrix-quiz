@@ -12,7 +12,7 @@
         </div>
         <div v-for="point in category.points" :key="point.id">
           <div
-            class="flex items-center justify-center text-center w-[159px] h-[117px] text-[#000000] font-bold text-[40px] uppercase hover:bg-[#FFDE00] rounded-[6px] cursor-pointer"
+            class="flex items-center justify-center text-center w-[159px] h-[117px] text-[#000000] font-bold text-[40px] uppercase active:bg-[#FFDE00] rounded-[6px] cursor-pointer"
             :class="{ 'bg-[#FFDE00]': point.isAnswered, 'bg-[#F0F7E8]': !point.isAnswered }"
             :disable="point.isAnswered"
             @click="point.isAnswered ? '' : goToQuestion(category, point)"

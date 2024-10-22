@@ -17,7 +17,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Ауэзовском районе', isCorrect: false },
               { id: 3, answer: 'Медеуском районе', isCorrect: true }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 2,
@@ -27,7 +27,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'красные', isCorrect: false },
               { id: 3, answer: 'сиреневые', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 3,
@@ -38,7 +38,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Сын маминой подруги', isCorrect: true },
               { id: 3, answer: 'на все руки мастер', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 4,
@@ -49,7 +49,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'осетром', isCorrect: true },
               { id: 3, answer: 'верблюжатиной', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 5,
@@ -59,7 +59,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Таджикистан', isCorrect: true },
               { id: 3, answer: 'Туркменистан', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           }
         ],
         isAnswered: false
@@ -76,7 +76,7 @@ const categories: ICategory[] = [
               { id: 2, answer: '12 лет', isCorrect: false },
               { id: 3, answer: '27 лет', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 7,
@@ -86,7 +86,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'перловка', isCorrect: false },
               { id: 3, answer: 'гречка', isCorrect: true }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 8,
@@ -97,7 +97,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'к самым полноводным рекам', isCorrect: false },
               { id: 3, answer: 'по определенным созвездиям', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 9,
@@ -108,7 +108,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Момын', isCorrect: false },
               { id: 3, answer: 'Культегин', isCorrect: false }
             ],
-            timer: 60,
+            timer: 20,
             image:
               'https://imagesratel.kz/cdn/innermain/i/2020/November/12/ee36c935d5e92e4399bd9682825eee2a3a4abc46.png'
           },
@@ -121,7 +121,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'самый посещаемый собор в СНГ', isCorrect: false },
               { id: 3, answer: 'самый старый собор в Центральной Азии', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           }
         ],
         isAnswered: false
@@ -138,7 +138,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Мухтар Ауэзов', isCorrect: false },
               { id: 3, answer: 'Абылхан Кастеев', isCorrect: false }
             ],
-            timer: 90,
+            timer: 30,
             image: 'https://iie.kz/wp-content/uploads/2023/04/image-225.png'
           },
           {
@@ -150,7 +150,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Сакен Сейфуллин', isCorrect: true },
               { id: 3, answer: 'Абай Кунанбаев', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 13,
@@ -161,7 +161,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Жетысуская', isCorrect: true },
               { id: 3, answer: 'Улытауская', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 14,
@@ -172,7 +172,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'захваченного в походах золота', isCorrect: false },
               { id: 3, answer: 'зубов его любимого коня', isCorrect: true }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 15,
@@ -182,7 +182,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Актау', isCorrect: true },
               { id: 3, answer: 'Актобе', isCorrect: false }
             ],
-            timer: 90,
+            timer: 30,
             image: 'https://www.lada.kz/uploads/photos/2023-05/1683281850.jpg'
           }
         ],
@@ -207,7 +207,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'пели под нужным окном песни', isCorrect: false },
               { id: 3, answer: 'закидывали в окна яблоки', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 17,
@@ -218,7 +218,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'срок хранения – 40 лет', isCorrect: false },
               { id: 3, answer: 'применимо для 40 видов материалов', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 18,
@@ -228,7 +228,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'люмос!', isCorrect: true },
               { id: 3, answer: 'акцио!', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 19,
@@ -238,7 +238,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Bohoboco с ароматом картофеля', isCorrect: false },
               { id: 3, answer: 'Jovoy с ароматом моркови', isCorrect: true }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 20,
@@ -249,7 +249,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'легко чистящиеся обои', isCorrect: true },
               { id: 3, answer: 'антистресс', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           }
         ],
         isAnswered: false
@@ -267,7 +267,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'меню Венского бала', isCorrect: false },
               { id: 3, answer: 'меню, разработанное королем Швеции', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 22,
@@ -278,7 +278,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'это детский аттракцион', isCorrect: false },
               { id: 3, answer: 'очистку устья реки', isCorrect: true }
             ],
-            timer: 60,
+            timer: 20,
             image: 'https://www.notechmagazine.com/2016/01/trash-collecting-water-wheel.html'
           },
           {
@@ -290,7 +290,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'чаще косят глаза', isCorrect: false },
               { id: 3, answer: 'чаще стаптываются подошвы ботинок', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 24,
@@ -301,7 +301,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'в Португалии', isCorrect: false },
               { id: 3, answer: 'во Франции', isCorrect: true }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 25,
@@ -312,7 +312,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'он держит бинокль окулярами от себя', isCorrect: false },
               { id: 3, answer: 'политик стоит на руках', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           }
         ],
         isAnswered: false
@@ -329,7 +329,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Вудро Вильсон', isCorrect: false },
               { id: 3, answer: 'Гровер Кливленд', isCorrect: true }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 27,
@@ -340,7 +340,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Гипотеза Ходжа', isCorrect: false },
               { id: 3, answer: 'Гипотеза Римана', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 28,
@@ -350,7 +350,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Кембриджскому университету', isCorrect: false },
               { id: 3, answer: 'Оксфордскому университету', isCorrect: true }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 29,
@@ -361,7 +361,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'свет костров', isCorrect: false },
               { id: 3, answer: 'уличные фонари', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 30,
@@ -372,7 +372,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'созданием метавселенной', isCorrect: false },
               { id: 3, answer: 'продажей первого NFT', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           }
         ],
         isAnswered: false
@@ -396,7 +396,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Премия Тьюринга', isCorrect: true },
               { id: 3, answer: 'Пулитцеровская премия', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 32,
@@ -407,7 +407,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Macintosh', isCorrect: false },
               { id: 3, answer: 'IBM PC', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 33,
@@ -418,7 +418,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'фейковыми пробками', isCorrect: true },
               { id: 3, answer: 'пирамидой из устройств', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 34,
@@ -429,7 +429,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Эрвин Шрёдингер', isCorrect: true },
               { id: 3, answer: 'Исаак Ньютон', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 35,
@@ -440,7 +440,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Бегущий по лезвию', isCorrect: false },
               { id: 3, answer: 'Терминатор', isCorrect: true }
             ],
-            timer: 30
+            timer: 15
           }
         ],
         isAnswered: false
@@ -458,7 +458,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Python', isCorrect: true },
               { id: 3, answer: 'CSS', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 37,
@@ -469,7 +469,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Обработка естественного языка (NLP)', isCorrect: true },
               { id: 3, answer: 'Виртуальная реальность (VR)', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 38,
@@ -480,7 +480,7 @@ const categories: ICategory[] = [
               { id: 2, answer: '«1984» Джорджа Оруэлла', isCorrect: false },
               { id: 3, answer: '«Метрополис» Теа фон Харбоу', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 39,
@@ -491,7 +491,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Sophia', isCorrect: true },
               { id: 3, answer: 'Pepper', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 40,
@@ -502,7 +502,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'оптимизации маршрута', isCorrect: false },
               { id: 3, answer: 'программного сбоя у конкурента', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           }
         ],
         isAnswered: false
@@ -520,7 +520,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Tilt Brush', isCorrect: true },
               { id: 3, answer: 'Oculus Medium', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 42,
@@ -531,7 +531,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'операций на суставах', isCorrect: false },
               { id: 3, answer: 'исследований активности мозга', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 43,
@@ -542,7 +542,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'произведение имеет слишком высокий темп', isCorrect: false },
               { id: 3, answer: 'требуется, чтобы дирижер стоял лицом к залу', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 44,
@@ -553,7 +553,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'виртуальным психотерапевтом', isCorrect: false },
               { id: 3, answer: 'виртуальным бездомным', isCorrect: true }
             ],
-            timer: 90
+            timer: 30
           }
         ],
         isAnswered: false
@@ -576,7 +576,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Township', isCorrect: true },
               { id: 3, answer: 'Fishdom', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 46,
@@ -586,7 +586,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'ДМС', isCorrect: false },
               { id: 3, answer: 'Изучение иностранного языка', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 47,
@@ -596,7 +596,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Спикер', isCorrect: false },
               { id: 3, answer: 'Пиксель', isCorrect: true }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 48,
@@ -606,7 +606,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Единое окно обращений', isCorrect: false },
               { id: 3, answer: 'Идеи Playrix', isCorrect: false }
             ],
-            timer: 30
+            timer: 15
           },
           {
             id: 49,
@@ -616,7 +616,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Дева', isCorrect: false },
               { id: 3, answer: 'Скорпион', isCorrect: true }
             ],
-            timer: 30
+            timer: 15
           }
         ],
         isAnswered: false
@@ -633,7 +633,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Батуми', isCorrect: false },
               { id: 3, answer: 'Будва', isCorrect: true }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 51,
@@ -643,7 +643,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'company-updates', isCorrect: false },
               { id: 3, answer: 'company-news', isCorrect: true }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 52,
@@ -654,7 +654,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Уильям и Оливия', isCorrect: true },
               { id: 3, answer: 'Милан и Амелия', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 53,
@@ -664,7 +664,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'COO', isCorrect: false },
               { id: 3, answer: 'CTO', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           },
           {
             id: 54,
@@ -674,7 +674,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Дирхам', isCorrect: true },
               { id: 3, answer: 'Динар', isCorrect: false }
             ],
-            timer: 60
+            timer: 20
           }
         ],
         isAnswered: false
@@ -691,7 +691,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'День релиза проекта Township', isCorrect: false },
               { id: 3, answer: 'День релиза проекта Gardenscapes', isCorrect: true }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 56,
@@ -701,7 +701,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Qase', isCorrect: false },
               { id: 3, answer: 'Datagrip', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 57,
@@ -711,7 +711,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Nintendo Switch', isCorrect: true },
               { id: 3, answer: 'Apple Watch Series 9 GPS (45mm)', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 58,
@@ -721,7 +721,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Sky Charms', isCorrect: false },
               { id: 3, answer: 'Fishdom', isCorrect: true }
             ],
-            timer: 90
+            timer: 30
           },
           {
             id: 59,
@@ -731,7 +731,7 @@ const categories: ICategory[] = [
               { id: 2, answer: 'Зеленый', isCorrect: true },
               { id: 3, answer: 'Красный', isCorrect: false }
             ],
-            timer: 90
+            timer: 30
           }
         ],
         isAnswered: false
