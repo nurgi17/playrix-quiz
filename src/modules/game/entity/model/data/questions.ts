@@ -109,7 +109,7 @@ const categories: ICategory[] = [
               { id: 3, answer: 'Культегин', isCorrect: false }
             ],
             timer: 20,
-            image: '/kose.png'
+            image: '/playrix-quiz/kose.png'
           },
           {
             id: 10,
@@ -138,7 +138,7 @@ const categories: ICategory[] = [
               { id: 3, answer: 'Абылхан Кастеев', isCorrect: false }
             ],
             timer: 30,
-            image: '/kunaev.png'
+            image: '/playrix-quiz/kunaev.png'
           },
           {
             id: 12,
@@ -182,7 +182,7 @@ const categories: ICategory[] = [
               { id: 3, answer: 'Актобе', isCorrect: false }
             ],
             timer: 30,
-            image: '/aktau.jpg'
+            image: '/playrix-quiz/aktau.jpg'
           }
         ],
         isAnswered: false
@@ -278,7 +278,7 @@ const categories: ICategory[] = [
               { id: 3, answer: 'очистку устья реки', isCorrect: true }
             ],
             timer: 20,
-            image: '/wheel.jpg'
+            image: '/playrix-quiz/wheel.jpg'
           },
           {
             id: 23,
