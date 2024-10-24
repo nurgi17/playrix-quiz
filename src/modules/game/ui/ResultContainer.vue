@@ -9,7 +9,7 @@
       <div class="pt-[289px] font-bold text-[#FFFFFF] text-center">
         <div class="uppercase text-[150px]">баллы:</div>
         <div class="text-[500px] mt-[-170px]">{{ totalPoints }}</div>
-        <div class="mt-[-170px]">
+        <div class="mt-[-100px]">
           <div class="uppercase text-[96px]">
             {{ text1 }}
           </div>
