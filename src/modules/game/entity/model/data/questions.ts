@@ -109,8 +109,7 @@ const categories: ICategory[] = [
               { id: 3, answer: 'Культегин', isCorrect: false }
             ],
             timer: 20,
-            image:
-              'https://imagesratel.kz/cdn/innermain/i/2020/November/12/ee36c935d5e92e4399bd9682825eee2a3a4abc46.png'
+            image: '/kose.png'
           },
           {
             id: 10,
@@ -139,7 +138,7 @@ const categories: ICategory[] = [
               { id: 3, answer: 'Абылхан Кастеев', isCorrect: false }
             ],
             timer: 30,
-            image: 'https://iie.kz/wp-content/uploads/2023/04/image-225.png'
+            image: '/kunaev.png'
           },
           {
             id: 12,
@@ -183,7 +182,7 @@ const categories: ICategory[] = [
               { id: 3, answer: 'Актобе', isCorrect: false }
             ],
             timer: 30,
-            image: 'https://www.lada.kz/uploads/photos/2023-05/1683281850.jpg'
+            image: '/aktau.jpg'
           }
         ],
         isAnswered: false
@@ -279,7 +278,7 @@ const categories: ICategory[] = [
               { id: 3, answer: 'очистку устья реки', isCorrect: true }
             ],
             timer: 20,
-            image: 'https://www.notechmagazine.com/2016/01/trash-collecting-water-wheel.html'
+            image: '/wheel.jpg'
           },
           {
             id: 23,
@@ -725,7 +724,8 @@ const categories: ICategory[] = [
           },
           {
             id: 59,
-            question: 'Какой цвет присутствует на флагах всех перечисленных стран?',
+            question:
+              'Наши сотрудники релоцировались в том числе и на Кипр, и в Ирландию, и в Португалию. Какой цвет присутствует на флагах всех перечисленных стран?',
             answers: [
               { id: 1, answer: 'Оранжевый', isCorrect: false },
               { id: 2, answer: 'Зеленый', isCorrect: true },

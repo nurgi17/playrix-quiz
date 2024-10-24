@@ -10,7 +10,7 @@
       >
         <img
           class="max-w-[542px] max-h-[247px] rounded-img object-contain"
-          :src="question.image"
+          :src="getImageUrl(question.image)"
           alt=""
         />
       </div>
@@ -40,7 +40,7 @@ defineProps({
   }
 })
 
-const { answer: doAnswer } = useAnswerQuestionService()
+const { answer: doAnswer, getImageUrl } = useAnswerQuestionService()
 </script>
 
 <style scoped></style>

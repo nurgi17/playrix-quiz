@@ -21,7 +21,11 @@ export function useAnswerQuestionService() {
       }
     })
   }
+  function getImageUrl(image: string) {
+    return new URL(image, import.meta.url).href
+  }
   return {
-    answer
+    answer,
+    getImageUrl
   }
 }
